@@ -22,7 +22,7 @@ public class XMLReaderDOM {
             NodeList nList = doc.getElementsByTagName("student");
             System.out.println("----------------------------");
 
-            for (int temp = 0; temp < nList.getLength(); temp++) {
+            for (int temp = 0; temp < 64; temp++) {
                 Node nNode = nList.item(temp);
                 System.out.println("\nCurrent Element :" + nNode.getNodeName());
 
